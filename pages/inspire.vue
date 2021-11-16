@@ -7,7 +7,7 @@
         class="mb-5"
       >
       <blockquote class="blockquote">
-        &#8220;minecraft, solve the problem. Then, write the code.&#8221;
+        &#8220; solve the problem. Then, write the code.&#8221;
         <footer>
           <small>
             <em>&mdash;John Johnson</em>
