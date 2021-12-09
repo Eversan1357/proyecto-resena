@@ -1,9 +1,17 @@
  <template>
   <v-app dark>
     <v-main>
-      <v-container>
+
+
+  <v-app-bar app>
+
+    PAGINA WEB DISEÑA PARA LOS RESEÑISTAS
+
+    </v-app-bar>
+
+
         <Nuxt />
-      </v-container>
+
     </v-main>
   </v-app>
 </template>
