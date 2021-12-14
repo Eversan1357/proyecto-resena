@@ -1,12 +1,10 @@
 <template lange="html">
 
-  <v-card
-    height="630"
-    weight="100"
-    class="v-navegator"
-  >
-    <v-navigation-drawer permanent>
-      <v-list-item>
+
+<v-app>
+
+  <v-navigation-drawer>
+      <v-list-item >
         <v-list-item-content>
           <v-list-item-title class="text-h6" >
             Reseñas
@@ -38,7 +36,10 @@
         <v-divider></v-divider>
       </v-list>
    </v-navigation-drawer>
-  </v-card>
+
+
+
+</v-app>
 
 </template>
 
@@ -66,4 +67,24 @@
       }
     },
   }
+
+
 </script>
+
+
+<!---
+ <style lang="css">
+
+ header{
+  margin: 300;
+
+ }
+
+ v-content{
+  margin: 50;
+ }
+ </style>
+
+---->
+
+
