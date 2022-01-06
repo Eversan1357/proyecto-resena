@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - proyecto-resenas',
-    title: 'proyecto-resenas',
+
+    title: 'Pagina web Reseñistas',
     htmlAttrs: {
       lang: 'en'
     },

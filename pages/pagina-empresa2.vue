@@ -3,9 +3,9 @@
 
   <navegar />
     <br>
-  <contenido-buscar />
-
+  <empresa-2 />
 
 </div>
 </template>
+
 

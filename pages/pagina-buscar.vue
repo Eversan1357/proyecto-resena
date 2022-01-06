@@ -2,7 +2,7 @@
 <div>
 
   <navegar />
-    <br>
+  <br>
   <contenido-buscar />
 
 

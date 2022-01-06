@@ -1,6 +1,9 @@
 <template lange="html">
-<v-app>
-  <v-navigation-drawer width="300" height="506">
+
+<container
+>
+
+  <v-navigation-drawer width="300" height="506" floating >
       <v-list-item class="text-h6">
         <v-list-item-content >
           <v-list-item-title class="text-h4" >
@@ -14,7 +17,7 @@
 
       <v-divider ></v-divider>
 
-      <v-list dense color="orange" nav >
+      <v-list  dense color="orange" nav >
         <v-list-item
           v-for="item in items"
           :key="item.title"
@@ -33,7 +36,8 @@
 
 
 
-</v-app>
+
+</container>
 
 </template>
 
@@ -57,12 +61,9 @@
           { title: 'Agregar Reseñista', icon: 'mdi-plus' },
           { title: 'Agregar Empresa', icon: 'mdi-plus' }
         ],
-        right: null,
       }
     },
   }
-
-
 </script>
 
 
@@ -83,5 +84,7 @@
    color: white;
    background: orange;
  }
+
+
  </style>
 
